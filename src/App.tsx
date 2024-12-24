@@ -33,7 +33,7 @@ function App() {
         </div>
       </header>
       <main>
-        <div className="bg-gradient-to-b from-[#2E95E5]/10 to-transparent border-b border-gray-200">
+        <div className="border-b border-gray-200">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 text-center">
             <h2 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
               Write perfect aligner plans
