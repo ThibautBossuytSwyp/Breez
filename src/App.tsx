@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import breezLogo from './assets/breezlogo.svg'
 
 function App() {
   const [caseDescription, setCaseDescription] = useState('')
@@ -27,6 +28,11 @@ function App() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center py-6">
             <div className="flex items-center gap-2">
+              <img 
+                  src={breezLogo} 
+                  alt="Breez Logo" 
+                  className="h-8 w-auto"
+              />
               <h1 className="text-2xl font-semibold text-gray-900">Breez</h1>
             </div>
           </div>
